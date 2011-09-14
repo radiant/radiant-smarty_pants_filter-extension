@@ -22,9 +22,4 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "rubypants", "~> 0.2.0"
-
-  s.post_install_message = %{
-  Add this to your radiant project with:
-    config.gem "radiant-smarty_pants_filter-extension", :version => "~> #{RadiantSmartyPantsFilterExtension::VERSION}"
-  }
 end
